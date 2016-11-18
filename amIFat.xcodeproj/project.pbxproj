@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2705A46F1DDEFECC000F73C1 /* mike.png in Resources */ = {isa = PBXBuildFile; fileRef = 2705A46E1DDEFECC000F73C1 /* mike.png */; };
 		27E4537F1DDB87970025BE80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E4537E1DDB87970025BE80 /* AppDelegate.swift */; };
 		27E453811DDB87970025BE80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E453801DDB87970025BE80 /* ViewController.swift */; };
 		27E453841DDB87970025BE80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E453821DDB87970025BE80 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2705A46E1DDEFECC000F73C1 /* mike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mike.png; sourceTree = "<group>"; };
 		27E4537B1DDB87970025BE80 /* amIFat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amIFat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E4537E1DDB87970025BE80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27E453801DDB87970025BE80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		27E4537D1DDB87970025BE80 /* amIFat */ = {
 			isa = PBXGroup;
 			children = (
+				2705A46E1DDEFECC000F73C1 /* mike.png */,
 				27E4537E1DDB87970025BE80 /* AppDelegate.swift */,
 				27E453801DDB87970025BE80 /* ViewController.swift */,
 				27E453821DDB87970025BE80 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27E453891DDB87970025BE80 /* LaunchScreen.storyboard in Resources */,
+				2705A46F1DDEFECC000F73C1 /* mike.png in Resources */,
 				27E453861DDB87970025BE80 /* Assets.xcassets in Resources */,
 				27E453841DDB87970025BE80 /* Main.storyboard in Resources */,
 			);
@@ -297,6 +301,7 @@
 				27E4538F1DDB87970025BE80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
