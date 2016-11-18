@@ -41,6 +41,7 @@ class ViewController: UIViewController {
         
         self.changeStatus(bmi: bmi)
         
+        
     }
     @IBAction func weightChanged(_ sender: UISlider) {
         w = sender.value
@@ -48,18 +49,18 @@ class ViewController: UIViewController {
     }
     @IBAction func heightChanged(_ sender: UISlider) {
         h = sender.value
-        heightOutlet.text = "\(h) cm"
+        heightOutlet.text = "\(h) m"
     }
     
     private func changeStatus(bmi: Float) {
         if (bmi < 18.5) {
-            fatLabel.text = "Underweight"
+            fatLabel.text = "You're Underweight"
             fatLabel.textColor = UIColor.green
         } else if (bmi >= 18.5 && bmi < 25) {
-            fatLabel.text = "Normal"
+            fatLabel.text = "You weight is normal"
             fatLabel.textColor = UIColor.yellow
         } else {
-            fatLabel.text = "Overweight"
+            fatLabel.text = "Your kinda overweight"
             fatLabel.textColor = UIColor.red
         
         }
