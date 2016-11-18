@@ -65,6 +65,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="calcBmi" destination="Utp-dr-iz2" id="LBJ-4n-9Lq"/>
+                        <outlet property="heightInput" destination="MeH-Y6-V0c" id="nfS-7V-iLE"/>
+                        <outlet property="resultBmi" destination="Yq4-0Z-VxR" id="3iR-8R-1Ki"/>
+                        <outlet property="weightInput" destination="BMA-4m-XMc" id="cy0-cV-o3t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

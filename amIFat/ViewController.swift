@@ -20,6 +20,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var weightInput: UITextField!
+    
+    @IBOutlet weak var heightInput: UITextField!
 
+    @IBOutlet weak var calcBmi: UIButton!
+    
+    @IBOutlet weak var resultBmi: UILabel!
 }
 
