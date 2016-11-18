@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var heightOutlet: UILabel!
     @IBOutlet weak var fatLabel: UILabel!
     
+    @IBOutlet weak var weightSlider: UISlider!
+    @IBOutlet weak var heightSlider: UISlider!
+    
     var h:Float = 1.6
     var w:Float = 80
     var bmi:Float = 0
@@ -32,7 +35,7 @@ class ViewController: UIViewController {
     
     // Knappen
     @IBAction func amIFat(_ sender: Any) {
-        bmi = (w/(h*h))
+        bmi = w/(h*h)
         
         bmiResult.text = NSString(format: "%.2f", bmi) as String
         
